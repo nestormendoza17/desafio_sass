@@ -1,0 +1,12 @@
+.ubicacion {
+    background-color: $colorSecundario;
+    width: 80%;
+    border: 5px;
+    border-style: solid;
+    border-color: $colorTerciario;
+    margin: 10px;
+    padding: 10px;
+    .mapa {
+        width: 100%;
+    }
+}

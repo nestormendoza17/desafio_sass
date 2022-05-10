@@ -1,0 +1,12 @@
+@import "_variables";
+@import "_footer";
+@import "_nav";
+@import "_ubicacion";
+
+body {
+    background-color: $colorPrimario;
+    font-family: "roboto","sans serif","calibri";
+    color: $colorLetras;        
+}
+
+
