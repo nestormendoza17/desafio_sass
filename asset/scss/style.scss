@@ -3,10 +3,33 @@
 @import "_nav";
 @import "_ubicacion";
 
-body {
+.inicio {
     background-color: $colorPrimario;
     font-family: "roboto","sans serif","calibri";
     color: $colorLetras;        
+}
+.bienvenida {
+            img {
+        width: 700px;
+        }
+            p {
+            font-size: large;
+            padding: 1rem;
+        }
+            h1 {
+		font-size: large;    
+		animation-duration: 2.5s; /*animacion titulo*/
+		animation-name: aparecer;
+		animation-iteration-count:initial;
+	}
+	@keyframes aparecer {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
 }
 
 

@@ -30,9 +30,35 @@ nav div img {
   width: 100%;
 }
 
-body {
+.inicio {
   background-color: #ffdda1ff;
   font-family: "roboto","sans serif","calibri";
   color: black;
+}
+
+.bienvenida img {
+  width: 700px;
+}
+
+.bienvenida p {
+  font-size: large;
+  padding: 1rem;
+}
+
+.bienvenida h1 {
+  font-size: large;
+  animation-duration: 2.5s;
+  /*animacion titulo*/
+  animation-name: aparecer;
+  animation-iteration-count: initial;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=style.css.map */
