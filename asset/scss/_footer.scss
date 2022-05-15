@@ -1,7 +1,13 @@
 footer {
     background-color: $colorFooter;
-    div a {
-    text-decoration: none;
-    color: $colorLetras;
+    margin-top: 10px;
     }
-}
+@mixin propiedadesPrincipales ($txd,$col) {
+    text-decoration: $txd;
+    color: $col;
+    
+} 
+div a {
+    @include propiedadesPrincipales(none,$colorLetras )
+    }
+

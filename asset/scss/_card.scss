@@ -1,0 +1,12 @@
+.card-body {
+    background-color: $colorTerciario;
+    margin: 5px;
+    }
+
+.card-body-2 {
+    @extend .card-body
+    }
+
+.card-body-3 {
+    @extend .card-body
+}

@@ -1,6 +1,6 @@
 nav div {
     background-color: $colorFooter;
-    font-size: larger;
+    font-size: map-get($estilos, font-size);
     img{
         width: 150px;
     }

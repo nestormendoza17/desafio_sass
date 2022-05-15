@@ -1,10 +1,14 @@
 @import "_variables";
+@import "_generales";
 @import "_footer";
 @import "_nav";
 @import "_ubicacion";
+@import "_formulario";
+@import "_card";
 
 .inicio {
-    background-color: $colorPrimario;
+    
+    background-color: map-get($estilos, color);
     font-family: "roboto","sans serif","calibri";
     color: $colorLetras;        
 }
@@ -13,7 +17,7 @@
         width: 700px;
         }
             p {
-            font-size: large;
+            font-size: map-get($estilos , font-size );
             padding: 1rem;
         }
             h1 {

@@ -1,15 +1,16 @@
 footer {
   background-color: #e77728ff;
+  margin-top: 10px;
 }
 
-footer div a {
+div a {
   text-decoration: none;
   color: black;
 }
 
 nav div {
   background-color: #e77728ff;
-  font-size: larger;
+  font-size: large;
 }
 
 nav div img {
@@ -28,6 +29,23 @@ nav div img {
 
 .ubicacion .mapa {
   width: 100%;
+}
+
+.caja {
+  background-color: #f8c537ff;
+  width: 400px;
+  margin: 5px;
+  padding: 1rem;
+}
+
+.caja label {
+  font-size: larger;
+  color: black;
+}
+
+.card-body, .card-body-2, .card-body-3 {
+  background-color: #f8c537ff;
+  margin: 5px;
 }
 
 .inicio {
