@@ -1,13 +1,12 @@
 @import "_variables";
 @import "_generales";
-@import "_footer";
 @import "_nav";
 @import "_ubicacion";
 @import "_formulario";
 @import "_card";
+@import "_footer";
 
 .inicio {
-    
     background-color: map-get($estilos, color);
     font-family: "roboto","sans serif","calibri";
     color: $colorLetras;        

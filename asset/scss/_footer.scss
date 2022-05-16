@@ -7,7 +7,9 @@ footer {
     color: $col;
     
 } 
-div a {
-    @include propiedadesPrincipales(none,$colorLetras )
+div {
+    a {
+        @include propiedadesPrincipales(none,$colorLetras )  
+    }
     }
 
