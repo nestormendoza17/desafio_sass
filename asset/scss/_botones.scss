@@ -1,0 +1,11 @@
+button {
+        background-color: $colorFooter;
+        border: none;
+        color: $colorLetras;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: map-get($estilos , font-size);
+        font-style: oblique;
+}   

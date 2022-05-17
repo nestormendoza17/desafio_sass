@@ -1,16 +1,46 @@
-footer {
-  background-color: #e77728ff;
-  margin-top: 10px;
+@charset "UTF-8";
+
+section img:hover {
+  filter: saturate(180%);
 }
 
-div a {
-  text-decoration: none;
-  color: black;
+h1 {
+  font-size: xx-large;
+  animation-duration: 2.5s;
+  /*animacion titulo*/
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h2 {
+  font-size: large;
+  animation-duration: 1.5s;
+  /*animacion titulo*/
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 nav div {
   background-color: #e77728ff;
-  font-size: large;
+  font-size: x-large;
 }
 
 nav div img {
@@ -33,7 +63,7 @@ nav div img {
 
 .caja {
   background-color: #f8c537ff;
-  width: 400px;
+  max-width: 400px;
   margin: 5px;
   padding: 1rem;
 }
@@ -48,6 +78,28 @@ nav div img {
   margin: 5px;
 }
 
+button {
+  background-color: #e77728ff;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: x-large;
+  font-style: oblique;
+}
+
+footer {
+  background-color: #e77728ff;
+  margin-top: 10px;
+}
+
+div a {
+  text-decoration: none;
+  color: black;
+}
+
 .inicio {
   background-color: #ffdda1ff;
   font-family: "roboto","sans serif","calibri";
@@ -59,16 +111,16 @@ nav div img {
 }
 
 .bienvenida p {
-  font-size: large;
+  font-size: x-large;
   padding: 1rem;
 }
 
 .bienvenida h1 {
-  font-size: large;
+  font-size: xx-large;
   animation-duration: 2.5s;
   /*animacion titulo*/
   animation-name: aparecer;
-  animation-iteration-count: initial;
+  animation-iteration-count: infinite;
 }
 
 @keyframes aparecer {
@@ -78,5 +130,9 @@ nav div img {
   100% {
     opacity: 1;
   }
+}
+
+section p {
+  font-size: x-large;
 }
 /*# sourceMappingURL=style.css.map */

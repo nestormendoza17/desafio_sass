@@ -1,0 +1,32 @@
+section { /*animaciones para las imagenes*/
+    img:hover {filter: saturate(180%);}
+    
+}
+h1 {
+    font-size: xx-large;    
+		animation-duration: 2.5s; /*animacion titulo*/
+		animation-name: aparecer;
+		animation-iteration-count:infinite;
+	}
+	@keyframes aparecer {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+    h2 {
+        font-size:large;    
+            animation-duration: 1.5s; /*animacion titulo*/
+            animation-name: aparecer;
+            animation-iteration-count:infinite;
+        }
+        @keyframes aparecer {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }

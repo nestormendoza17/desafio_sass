@@ -1,4 +1,4 @@
-footer {
+footer { 
     background-color: $colorFooter;
     margin-top: 10px;
     }
@@ -7,7 +7,7 @@ footer {
     color: $col;
     
 } 
-div {
+div { /*se dio estilo al a*/
     a {
         @include propiedadesPrincipales(none,$colorLetras )  
     }
