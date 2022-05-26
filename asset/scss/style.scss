@@ -36,10 +36,13 @@
 		}
 	}
 }
-section { /*para darle tamaño a los párrafos de los section*/
+section {
+	/*para darle tamaño a los párrafos de los section*/
 	p {
 		font-size: x-large;
 	}
 }	
-
-
+.bienvenida img {
+	margin: 5px;
+	padding: 5px;
+}
