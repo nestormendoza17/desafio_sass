@@ -1,7 +1,5 @@
 @charset "UTF-8";
-section {
-  /*animaciones para las imagenes*/
-}
+
 
 section img:hover {
   filter: saturate(180%);
@@ -99,10 +97,6 @@ footer {
   margin-top: 10px;
 }
 
-div {
-  /*se dio estilo al a*/
-}
-
 div a {
   text-decoration: none;
   color: black;
@@ -123,26 +117,6 @@ div a {
   padding: 1rem;
 }
 
-.bienvenida h1 {
-  font-size: xx-large;
-  animation-duration: 2.5s;
-  /*animacion titulo*/
-  animation-name: aparecer;
-  animation-iteration-count: infinite;
-}
-
-@keyframes aparecer {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-section {
-  /*para darle tamaño a los párrafos de los section*/
-}
 
 section p {
   font-size: x-large;
