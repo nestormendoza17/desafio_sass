@@ -1,8 +1,8 @@
 @charset "UTF-8";
-section {
-  /*animaciones para las imagenes*/
+body {
+  margin: 0;
+  padding: 0;
 }
-
 section img:hover {
   filter: saturate(180%);
 }
@@ -62,11 +62,7 @@ nav div img {
 
 .ubicacion .mapa {
   width: 100%;
-  height: 65%;
-}
-
-.ubicacion p {
-  font-size: x-small;
+  height: 75%;
 }
 
 .caja {
@@ -108,10 +104,6 @@ footer {
   margin-top: 10px;
 }
 
-div {
-  /*se dio estilo al a*/
-}
-
 div a {
   text-decoration: none;
   color: black;
@@ -130,10 +122,6 @@ div a {
 .bienvenida p {
   font-size: x-large;
   padding: 1rem;
-}
-
-section {
-  /*para darle tamaño a los párrafos de los section*/
 }
 
 section p {
